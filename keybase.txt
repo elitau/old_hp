@@ -1,0 +1,84 @@
+==================================================================
+https://keybase.io/eduard
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ede.li
+  * I am eduard (https://keybase.io/eduard) on keybase.
+  * I have a public key with fingerprint 3BBF 225A 3389 7BF8 FC29  8C4E 9762 DB5F 01FE 122B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.18"
+        },
+        "key": {
+            "fingerprint": "3bbf225a33897bf8fc298c4e9762db5f01fe122b",
+            "host": "keybase.io",
+            "key_id": "9762DB5F01FE122B",
+            "uid": "0a6e7665fc828b6d27233f055e532900",
+            "username": "eduard"
+        },
+        "merkle_root": {
+            "ctime": 1408454032,
+            "hash": "d6eddf34112582d429ebe8af58a677bc7fb82ebf77a7624917aa6f92ce82848e3b6ec98459f2c1af25e9d61d0dece1045b13f7f67e99c54f325e720bdff310a9",
+            "seqno": 41223
+        },
+        "service": {
+            "hostname": "ede.li",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408454204,
+    "expire_in": 157680000,
+    "prev": "060e1d6e5d095e460433760b06294ab731da91983d2519e6dbe2cb5f487a44c0",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkntQVFUcx3cVCBgYCkdHkhq6ZUjSeu77XtKBMDcgCRAbGgLX+zgXrou7y91d
+Hq0waGRhYDXpQIBkMjKlyCOtiabGJGmEBoxXSLwSHAkDCzBIkOpehhq9f517zuf3
+Pd/v73fe812t89aX8gMm/d/+m/U/TPC6xNmXt7oQ3irmImEuRMiQocWhrSzcfoiE
+IWaYy3N2aJCtQRarCA377EErTCiSBRW7bLWoFDAQBpRB8kI1XquWZEsaVGyKrIkh
+OM9LGEZyOM6wNC8xkoCxjEBAlqYwkSclgEoQxTBe1Uy32h0PXIssa5pkUd3V+Bci
+SSNAjTtUPlI9cy4fAI6CNEWRksBgDE+JGI3huARIEpI4xgKggXaorGSCopNTRM3t
+fqiYM6BJsVqXMwsOWQNQAjAESQAcU/1w9nS1RKSgKEo4gaIYyWAigbGQhwwnkQxH
+0TQv0BLPYJCXaJpTPRIsSnMcJbGYAFVDBANxnoICq6qyEiagnISRkBUpVAQiFCAK
+CJJHcYmWKBqyrEASEq4CNAZ4UZJwFHCsGsAOMy1WJIxQg+N52q+SJQtQs6317P9o
+0JAhq7RNsTqsgjVD3Ut3OGxhWlpHrk1jsiFvWqk2neZli6jO6v5poir6YCcwQIQi
+MMcmK9AkawRJUwxQP+0emKUNgAIQVZtEioAlIUEBAsdpCvCAwliC42kcFTkWZRlc
+xEiUhZTIQ0xQJ08wNEcQArgvn+qTS1Ml7XKahXM4FYjkFa0KdNPpvXUe7qu056rz
+9nr4vzdMXPBbCky5OxMTNwtqiqbvfvTWOkdJzQa38ogWr6Qqr4MtuzwWO7661x81
+7PpyYGkms/3V6gTbvT1Js7eKi/5pLX5pId4o1+fEtCU4HVX6oab6m9c7i8M83ykc
+HBP2dIxcfbL7/Nhg/Ho4P5cqDh8oCS+c+n7K9fQjxs7GDT4hroY/W3syrxVcdtuN
+MmiwfGldtn1TgLK2wLEt/5g4YH5ovH1nzJtsTVtWRfTR+JZI98c8fhPnG0+fsN0a
+DE7133mnp6K6v7G3AYxbr/SlR/8aWnlDF+E3SNoaBgr8z3Uat1ejzYfNu2M2b0sS
+ukZf04W8WJt5arHuzO8jKfMVZ+aaYOG+I7tSI5rW53WlxZkvDRV+2nZz45YZfc6j
+Tzz3dexfLW8fNUYWui9c6TU8c/VswEmfaq8S/ZqqI1/ERtWVHmpvzpbOlkd5orX5
+Qpu5b/qpreWTclDN2mvhKRmL8ZHbJycPFHfXXt9S9hM7nfVhcpdcn3jonO8HVZ/s
+/fjwUso3r7C9PRtTjc4drn6fkTvd+aV/JM6fmEX8pdahstG6guDbz+uIb+NCEi8c
+63OrNNzODzhevGb8ctC73/Wc2vu6BygbS4sLbBv9JSo2enVe41S420Td+Y5FXVld
+DZp8MmHT455vTOkWnp072PNj8s8XC/zaly7Gv/9ZtK/TkHijOXXi8+yG+vDhme2s
+G1fJxxz/Fw==
+=mALb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eduard
+
+==================================================================
+
