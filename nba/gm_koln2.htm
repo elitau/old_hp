@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<script language='javascript' src='http://localhost:1612/js.cgi?pceaw&r=26299'></script>
+
+
+<title>Image Gallerie Movies</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style_indexphp.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+<!-- 
+var interval = 3247; 
+var random_display = 0;
+var ImageNum = 0;
+imageArray = new Array();
+var image_dir = "Bilder/gm_koln/";
+imageArray[ImageNum++] = new imageItem(image_dir + "1.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "2.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "3.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "4.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "5.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "6.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "7.jpg");
+imageArray[ImageNum++] = new imageItem(image_dir + "8.jpg");
+
+var number_of_image = imageArray.length;
+function imageItem(image_location) {
+this.image_item = new Image();
+this.image_item.src = image_location;
+}
+function get_ImageItemLocation(imageObj) {
+return(imageObj.image_item.src)
+}
+function randNum(x, y) {
+var range = y - x + 1;
+return Math.floor(Math.random() * range) + x;
+}
+function getNextImage() {
+if (random_display) {
+ImageNum = randNum(0, number_of_image-1);
+}
+else {
+ImageNum = (ImageNum+1) % number_of_image;
+}
+var new_image = get_ImageItemLocation(imageArray[ImageNum]);
+return(new_image);
+}
+
+function getPrevImage() {
+ImageNum = (ImageNum-1) % number_of_image;
+var new_image = get_ImageItemLocation(imageArray[ImageNum]);
+return(new_image);
+}
+
+function prevImage(place) {
+var new_image = getPrevImage();
+document[place].src = new_image;
+}
+
+function rotateImage(place) {
+var new_image = getNextImage();
+document[place].src = new_image;
+var recur_call = "rotateImage('"+place+"')";
+timerID = setTimeout(recur_call, interval);
+}
+
+
+//   -->
+</script>
+
+<title>Unbenanntes Dokument</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+</head>
+
+<body background="grafik/main.jpg" bgproperties="fixed" topmargin="0" marginwidth="0" marginheight="0" leftmargin="0" onLoad="rotateImage('rImage')">
+  <tr> 
+    <td width="95%" height="90%" align="left" valign="top"> <table border=0 cellpadding=4 cellspacing=0>
+        <tr> 
+          
+          
+        <td  width="272" height="69" align=left class="td"><span class="text">Gummersbach 
+          versus K&ouml;ln</span><font face="verdana, helvetica" size=1><b> </b> 
+          <p><span class="text"><a href="#" onClick="rotateImage('rImage')">> 
+            Play </a>&nbsp;&nbsp;<a href="#" onClick="clearTimeout(timerID)">|| 
+            Pause</a><br>
+            <a href="#" onClick="prevImage('rImage'); clearTimeout(timerID)">zur&uuml;ck<< 
+            </a>&nbsp;&nbsp;<a href="#" onClick="rotateImage('rImage'); clearTimeout(timerID)">vor>></a></span><br>
+          
+          </font></td>
+          <td width="480" rowspan="2"><div align="center">            
+            <table width="100%" border="0">
+              <tr> 
+                <td><div align="center"><a href="Bilder/gm_koln/1.jpg" target="_blank"><img src="Bilder/gm_koln/1_t.jpg" width="108" height="144" border="0"></a></div></td>
+                <td><div align="center"><a href="Bilder/gm_koln/2.jpg" target="_blank"><img src="Bilder/gm_koln/2_t.jpg" width="144" height="108" border="0"></a></div></td>
+              </tr>
+              <tr> 
+                <td><div align="center"><a href="Bilder/gm_koln/3.jpg" target="_blank"><img src="Bilder/gm_koln/3_t.jpg" width="108" height="144" border="0"></a></div></td>
+                <td><div align="center"><a href="Bilder/gm_koln/4.jpg" target="_blank"><img src="Bilder/gm_koln/4_t.jpg" width="144" height="108" border="0"></a></div></td>
+              </tr>
+			  <tr> 
+                <td><div align="center"><a href="Bilder/gm_koln/5.jpg" target="_blank"><img src="Bilder/gm_koln/5_t.jpg" width="108" height="144" border="0"></a></div></td>
+                <td><div align="center"><a href="Bilder/gm_koln/6.jpg" target="_blank"><img src="Bilder/gm_koln/6_t.jpg" width="144" height="108" border="0"></a></div></td>
+              </tr>
+			  <tr> 
+                <td><div align="center"><a href="Bilder/gm_koln/7.jpg" target="_blank"><img src="Bilder/gm_koln/7_t.jpg" width="144" height="108" border="0"></a></div></td>
+                <td><div align="center"><a href="Bilder/gm_koln/8.jpg" target="_blank"><img src="Bilder/gm_koln/8_t.jpg" width="144" height="108" border="0"></a></div></td>
+              </tr>
+            </table>
+              
+          </div></td>
+        </tr>
+        
+      <tr> 
+        <td class="td" align=center><img name="rImage"  align="top" src="" width="576" height="432" border=1></td>
+        </tr>
+      </table></td>
+  </tr>
+
+
+
+</body>
+</html>
+
+
+<body bgcolor="#EDF9EC">
+</body>
+</html>

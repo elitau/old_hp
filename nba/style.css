@@ -1,0 +1,18 @@
+.text {
+	font-family: "Courier New", Courier, mono;
+	font-size: 16px;
+	font-style: normal;
+	color: #000000;
+	word-spacing: normal;
+	page-break-before: auto;
+	page-break-after: auto;
+	background-color: #EDF9EC;
+
+
+}
+.Überschrift {
+	font-family: "Courier New", Courier, mono;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+}
